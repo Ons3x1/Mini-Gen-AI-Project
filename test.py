@@ -12,3 +12,4 @@ new_support_request = {
 response = requests.post("http://127.0.0.1:8000/support_request/", json=new_support_request)
 
 print(response.json())
+
