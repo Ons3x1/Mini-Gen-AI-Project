@@ -1,5 +1,10 @@
-fastapi (endpoints)
-uvicorn (to easily restart the server)
-pydantic (to structure our data)
-cohere  (the used LLM)
-python-dotenv  (to hide API key)
+Here is a list of dependencies I Have used in this project along with reasons why and their versions:
+
+    Python, version 3.12.8
+    difflib (used to compare words without having to use embeddings)
+    fastapi (endpoints), version: 0.115.8
+    uvicorn (to easily and quickly restart the server), version: 0.34.0
+    pydantic (to structure our data), version: 2.10.6
+    cohere  (the used LLM), version: 5.13.12
+    python-dotenv  (to hide API key), version: 0.21.0
+
