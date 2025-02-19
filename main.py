@@ -10,7 +10,7 @@ import json
 from difflib import SequenceMatcher
 from dotenv import load_dotenv
 import os
-    
+
 
 
 #entities
@@ -270,7 +270,7 @@ def parse_feat_req(json_string: Union[str, dict]):
             # Parse JSON string into a dictionary
             data = json.loads(json_string)
         
-        print('Parsed JSON into a dictionary:', data)
+        print('Parsed JSON into dict, dict en question:', data)
         print('HMD AALINAAA')
 
         # Extract values with safe defaults
