@@ -1,0 +1,5 @@
+fastapi (endpoints)
+uvicorn (to easily restart the server)
+pydantic (to structure our data)
+cohere  (the used LLM)
+python-dotenv  (to hide API key)
