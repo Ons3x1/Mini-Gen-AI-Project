@@ -1,6 +1,5 @@
 # Mini Project
 
-**Back end dev:** `/FastAPIRestful Api + Gen Ai`
+**Back end dev + FastAPIRestful + Gen AI ** 
 
-# Packages:
 
