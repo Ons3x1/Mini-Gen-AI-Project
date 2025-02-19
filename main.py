@@ -7,11 +7,10 @@ from typing import Optional
 from typing import Union
 import cohere
 import json
-import nbimporter
 from difflib import SequenceMatcher
 from dotenv import load_dotenv
 import os
-
+    
 
 
 #entities
