@@ -1,10 +1,26 @@
-Here is a list of dependencies I Have used in this project along with reasons why and their versions:
+# Project is developed using Python 3.12.8
 
-    Python, version 3.12.8
-    difflib (used to compare words without having to use embeddings)
-    fastapi (endpoints), version: 0.115.8
-    uvicorn (to easily and quickly restart the server), version: 0.34.0
-    pydantic (to structure our data), version: 2.10.6
-    cohere  (the used LLM), version: 5.13.12
-    python-dotenv  (to hide API key), version: 0.21.0
+# difflib:
+# - A built-in Python module used to compare words without needing embeddings.
+# (No installation required)
 
+# FastAPI:
+# - Framework for building API endpoints.
+fastapi==0.115.8
+
+# Uvicorn:
+# - ASGI server for running FastAPI applications.
+# - Provides easy and quick server restarts during development.
+uvicorn[standard]==0.34.0
+
+# Pydantic:
+# - Used for data validation and structure management.
+pydantic==2.10.6
+
+# Cohere:
+# - The chosen large language model (LLM) for generating responses.
+cohere==5.13.12
+
+# python-dotenv:
+# - Manages environment variables to securely hide API keys.
+python-dotenv==0.21.0
